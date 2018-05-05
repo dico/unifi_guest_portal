@@ -49,4 +49,3 @@ If the webpage authenticate the user, it will send the device MAC-address and nu
 **Firewall**
 
 The ports are defined in config.php. By default Unifi controller uses port 8443. The webserver needs access to send web-request to the Unifi controller on this port.
-
