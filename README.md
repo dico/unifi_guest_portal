@@ -7,9 +7,9 @@ which is not included in this code. Some of this code is either commented out or
 The portal is tested with SMS authentication, with SMS API from Diafaan and Clickatell. 
 SMS auth should work out-of-box with this code, but requires you to have a working SMS server with HTTP connection (e.g. Clickatell).
 
-All config-settings are working settings in our demo-enviroment.
+All config-settings are working settings in our demo-environment.
 
-This code is ment for testing purposes, and you should not use it in a production enviroment without web-security knowledge. 
+This code is ment for testing purposes, and you should not use it in a production environment without web-security knowledge. 
 
 
 ### Get started
@@ -17,7 +17,7 @@ You will need a webserver with Apache, PHP and MySQL.
 
 1. Import the database from the included database.sql file.
 2. Copy files to your server.
-3. Copy the config-sample.php to config.php, and change settings to your own enviroment.
+3. Copy the config-sample.php to config.php, and change settings to your own environment.
 
 **Requirements**
 * PHP Curl
@@ -25,7 +25,7 @@ You will need a webserver with Apache, PHP and MySQL.
 
 **Unifi controller settings**
 
-In our demo enviroment, the Unifi controller runs version 5.6.26. 
+In our demo environment, the Unifi controller runs version 5.6.26. 
 The Guest Control settings are set to "External portal server" with IP to the webserver.
 
 **Redirects**
