@@ -1,0 +1,5 @@
+config.php
+vendor*
+_tmp*
+_old*
+_OLD*
