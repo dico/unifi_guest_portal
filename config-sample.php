@@ -62,15 +62,15 @@ define('DB_HOST', 'localhost');				// DB host
 /**
 	Unifi controller
 */
-define('UNIFI_USER', 'guestmanager');					// SMS Gateway User
-define('UNIFI_PASSWORD', 'GuestPortal553');				// SMS Gateway Password
-define('UNIFI_SERVER', 'https://192.168.1.100:8443');	// SMS Gateway Server
-define('UNIFI_SITE', 'default');						// SMS Gateway Site
-define('UNIFI_VERSION', '5.6.26');						// SMS Gateway Server version
-define('UNIFI_COOKIE_FILE', '/var/www/html/unifi_guest_portal/tmp/unifi_cookie.txt');	// SMS Gateway Server
-//define('UNIFI_DEBUG', true);							// SMS Gateway Debug (Need to be set in the class file)
-//define('UNIFI_SSL_VERSION', 1);						// SMS Gateway SSL version (Need to be set in the class file)
-define('DEFAULT_AUTH_TIME', 525600);
+define('UNIFI_USER', 'guestmanager');					// Unifi controller User
+define('UNIFI_PASSWORD', 'GuestPortal553');				// Unifi controller Password
+define('UNIFI_SERVER', 'https://192.168.1.100:8443');	// Unifi controller Server
+define('UNIFI_SITE', 'default');						// Unifi controller Site
+define('UNIFI_VERSION', '5.6.26');						// Unifi controller Server version
+define('UNIFI_COOKIE_FILE', '/var/www/html/unifi_guest_portal/tmp/unifi_cookie.txt');	// Unifi controller Server
+//define('UNIFI_DEBUG', true);							// Unifi controller Debug (Need to be set in the class file)
+//define('UNIFI_SSL_VERSION', 1);						// Unifi controller SSL version (Need to be set in the class file)
+define('DEFAULT_AUTH_TIME', 525600);					// Unifi controller Minuts before client need to re-auth
 
 
 
